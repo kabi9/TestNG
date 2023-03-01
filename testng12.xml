@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DependsOn">
+	<parameter name="username" value="standard_user" />
+	<parameter name="password" value="secret_sauce" />
+	<parameter name="browser" value="chrome" />
+	<listeners>
+		<listener class-name="commom.com.Listeners" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="test.com.testR12" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
