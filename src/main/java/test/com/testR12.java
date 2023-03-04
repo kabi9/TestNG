@@ -24,10 +24,8 @@ public class testR12 extends BeforeMethodsTwo {
 	@Test (dependsOnMethods = {"OpenBrowser"})
 	public void Login() {
 		System.out.println("Logging Into Application");
-		
 		//		DELEBRATELY FAILING TESTCASE		(1, 2)
 			Assert.assertEquals(1, 1);
-		
 	}
 	
 	@Parameters({"browser"})

@@ -6,6 +6,8 @@ import commom.com.BeforeMethods;
 
 public class TestR1 extends BeforeMethods{
 
+	//	@Test counts test cases
+	
 	@Test(priority =1)
 	public void loginTest() {
 		System.out.println("Login successful");

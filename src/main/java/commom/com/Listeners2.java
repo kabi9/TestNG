@@ -4,7 +4,9 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class Listeners2 implements ITestListener{
+import utilities.getScreenshot;
+
+public class Listeners2 extends getScreenshot implements ITestListener{
 	
 	public void onTestStart(ITestResult result) {
 		System.out.println("Test case is starting");
@@ -20,7 +22,7 @@ public class Listeners2 implements ITestListener{
 		// TODO Auto-generated method stub
 		System.out.println("Testcase failed");
 		System.out.println("Generating screenshot here");
-		// getScreenShortA.getScreenS();
+		getScreenshot.getScreenS();
 	
 	}
 

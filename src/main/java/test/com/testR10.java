@@ -5,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import commom.com.BeforeMethods;
 import commom.com.BeforeMethodsTwo;
 
 public class testR10 extends BeforeMethodsTwo{
