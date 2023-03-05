@@ -18,7 +18,7 @@ public class getScreenshot extends BaseTest {
 		String currentDateS = currentDate.toString().replace(" ", "-").replace(":", "-");
 		TakesScreenshot scrShot = ((TakesScreenshot) driver);
 		File SourceFile = scrShot.getScreenshotAs(OutputType.FILE);
-		File DestFile = new File(".//screenshort//screenshortB" + currentDateS + ".png");
+		File DestFile = new File(".//screenshot//screensho tB" + currentDateS + ".png");
 
 		try {
 			FileUtils.copyFile(SourceFile, DestFile);

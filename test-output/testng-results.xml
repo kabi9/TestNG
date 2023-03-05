@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-04T09:25:19 CST" name="Screenshot" finished-at="2023-03-04T09:25:20 CST" duration-ms="1092">
+  <suite started-at="2023-03-04T19:27:28 CST" name="Screenshot" finished-at="2023-03-04T19:27:29 CST" duration-ms="1121">
     <groups>
     </groups>
-    <test started-at="2023-03-04T09:25:19 CST" name="Test" finished-at="2023-03-04T09:25:20 CST" duration-ms="1092">
+    <test started-at="2023-03-04T19:27:28 CST" name="Test" finished-at="2023-03-04T19:27:29 CST" duration-ms="1121">
       <class name="test.com.testR13">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.com.testR13@7bab3f1a]" started-at="2023-03-04T09:25:15 CST" name="launchBrowser" finished-at="2023-03-04T09:25:19 CST" duration-ms="3786" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.com.testR13@437da279]" started-at="2023-03-04T19:27:22 CST" name="launchBrowser" finished-at="2023-03-04T19:27:28 CST" duration-ms="5872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Login()[pri:0, instance:test.com.testR13@7bab3f1a]" started-at="2023-03-04T09:25:19 CST" name="Login" finished-at="2023-03-04T09:25:20 CST" duration-ms="856" status="FAIL">
+        <test-method signature="Login()[pri:0, instance:test.com.testR13@437da279]" started-at="2023-03-04T19:27:28 CST" name="Login" finished-at="2023-03-04T19:27:29 CST" duration-ms="900" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -24,7 +24,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:819)
 at org.testng.Assert.assertEquals(Assert.java:829)
-at test.com.testR13.Login(testR13.java:20)
+at test.com.testR13.Login(testR13.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,7 +59,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.com.testR13@7bab3f1a]" started-at="2023-03-04T09:25:20 CST" name="closeBrowser" finished-at="2023-03-04T09:25:20 CST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.com.testR13@437da279]" started-at="2023-03-04T19:27:29 CST" name="closeBrowser" finished-at="2023-03-04T19:27:29 CST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
